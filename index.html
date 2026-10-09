@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Fatimazahra Zahir, élève-ingénieure en génie informatique spécialisée en intelligence artificielle.">
+    <meta name="theme-color" content="#0b1020">
+    <title>Fatimazahra Zahir | Ingénieure en IA</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-slate-950 text-slate-100">
+
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur">
+        <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
+             aria-label="Navigation principale">
+
+            <a href="#accueil" class="text-lg font-bold tracking-tight text-white">
+                Fatimazahra <span class="text-indigo-400">Zahir</span>
+            </a>
+
+            <div class="hidden items-center gap-7 text-sm text-slate-300 md:flex">
+                <a href="#profil" class="transition hover:text-indigo-300">Profil</a>
+                <a href="#experience" class="transition hover:text-indigo-300">Expérience</a>
+                <a href="#projets" class="transition hover:text-indigo-300">Projets</a>
+                <a href="#competences" class="transition hover:text-indigo-300">Compétences</a>
+                <a href="#formation" class="transition hover:text-indigo-300">Formation</a>
+            </div>
+
+            <a href="#contact"
+               class="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-500">
+                Me contacter
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Présentation -->
+        <section id="accueil" class="mx-auto max-w-6xl px-6 py-24 md:py-32">
+            <div class="grid items-center gap-12 md:grid-cols-[1.5fr_0.8fr]">
+
+                <div>
+                    <p class="mb-5 text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">
+                        Élève-ingénieure en génie informatique · Intelligence artificielle
+                    </p>
+
+                    <h1 class="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-white md:text-6xl">
+                        Je conçois des solutions d’IA au service de besoins concrets.
+                    </h1>
+
+                    <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-400">
+                        En cinquième année du cycle ingénieur à HESTIM, je me spécialise en
+                        intelligence artificielle, machine learning, deep learning et traitement
+                        du langage naturel. Je recherche un stage de fin d’études pour contribuer
+                        à des projets d’IA à fort impact.
+                    </p>
+
+                    <div class="mt-9 flex flex-wrap gap-4">
+                        <a href="#projets"
+                           class="rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-950/40 transition hover:bg-indigo-500">
+                            Découvrir mes projets
+                        </a>
+
+                        <a href="mailto:f.zahir@hestim.ma"
+                           class="rounded-lg border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:bg-slate-900">
+                            Me contacter
+                        </a>
+                    </div>
+
+                    <p class="mt-8 text-sm text-slate-500">
+                        Casablanca, Maroc
+                        <span class="mx-2 text-slate-700">·</span>
+                        Disponible pour un stage PFE
+                    </p>
+                </div>
+
+                <aside class="rounded-2xl border border-indigo-500/20 bg-gradient-to-br from-indigo-500/10 to-slate-900 p-7">
+                    <p class="text-sm font-semibold text-indigo-300">Domaines d’intérêt</p>
+
+                    <ul class="mt-5 space-y-4 text-sm text-slate-300">
+                        <li class="flex gap-3">
+                            <span class="text-indigo-400">01</span>
+                            <span>Agents conversationnels et intégration de LLM</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-indigo-400">02</span>
+                            <span>Vision par ordinateur et analyse d’images</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-indigo-400">03</span>
+                            <span>IA embarquée, IoT et TinyML</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-indigo-400">04</span>
+                            <span>Traitement des données et systèmes intelligents</span>
+                        </li>
+                    </ul>
+                </aside>
+
+            </div>
+        </section>
+
+        <!-- Profil -->
+        <section id="profil" class="border-y border-white/10 bg-slate-900/40">
+            <div class="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[0.7fr_1.3fr]">
+
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">Profil</p>
+                    <h2 class="mt-3 text-3xl font-bold text-white">À propos de moi</h2>
+                </div>
+
+                <div class="space-y-4 leading-7 text-slate-400">
+                    <p>
+                        Ma formation en génie informatique et en intelligence artificielle me permet
+                        d’aborder des projets allant de la préparation des données à la création
+                        d’applications intégrant des modèles d’IA.
+                    </p>
+                    <p>
+                        Lors de mes expériences, j’ai travaillé sur un agent conversationnel bancaire,
+                        des réseaux de neurones convolutifs appliqués à l’imagerie satellite et un
+                        système embarqué de surveillance de la qualité de l’air.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Expérience -->
+        <section id="experience" class="mx-auto max-w-6xl px-6 py-20">
+            <div class="mb-10">
+                <p class="text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">
+                    Parcours professionnel
+                </p>
+                <h2 class="mt-3 text-3xl font-bold text-white">Expérience</h2>
+            </div>
+
+            <div class="space-y-6">
+
+                <article class="rounded-2xl border border-slate-800 bg-slate-900/50 p-7">
+                    <div class="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white">Stagiaire — Ingénieure IA</h3>
+                            <p class="mt-1 text-indigo-300">Banque Populaire · El Gharbia, Maroc</p>
+                        </div>
+                        <span class="rounded-full bg-slate-800 px-3 py-1 text-xs text-slate-300">
+                            Avril – juillet 2026
+                        </span>
+                    </div>
+
+                    <p class="mt-5 text-sm font-semibold text-slate-200">
+                        Projet : BP IA, agent conversationnel bancaire
+                    </p>
+
+                    <ul class="mt-3 space-y-2 text-sm leading-6 text-slate-400">
+                        <li>
+                            Conception et développement d’un agent conversationnel couvrant quatre parcours
+                            clients : consultation de solde, ouverture de compte, réclamations et questions
+                            sur les cartes.
+                        </li>
+                        <li>
+                            Intégration d’une API de grand modèle de langage (LLM) pour comprendre les
+                            demandes en langage naturel et générer des réponses adaptées.
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="rounded-2xl border border-slate-800 bg-slate-900/50 p-7">
+                    <div class="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white">
+                                Stagiaire — Intelligence artificielle appliquée à l’archéologie
+                            </h3>
+                            <p class="mt-1 text-indigo-300">IT Solar · Casablanca</p>
+                        </div>
+                        <span class="rounded-full bg-slate-800 px-3 py-1 text-xs text-slate-300">
+                            Mai – juillet 2025
+                        </span>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm leading-6 text-slate-400">
+                        <li>
+                            Développement de réseaux de neurones convolutifs (CNN) pour détecter des
+                            structures archéologiques sur des images satellites et aériennes.
+                        </li>
+                        <li>
+                            Prétraitement, segmentation et annotation de jeux de données liés au patrimoine
+                            de la région de Doukkala.
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section id="projets" class="border-y border-white/10 bg-slate-900/40">
+            <div class="mx-auto max-w-6xl px-6 py-20">
+
+                <div class="mb-10">
+                    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">
+                        Réalisations
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold text-white">Projets sélectionnés</h2>
+                </div>
+
+                <div class="grid gap-6 md:grid-cols-2">
+
+                    <article class="rounded-2xl border border-slate-800 bg-slate-950/70 p-7 transition hover:border-indigo-500/50">
+                        <div class="flex flex-wrap items-start justify-between gap-3">
+                            <h3 class="text-xl font-semibold text-white">
+                                SIMS — Surveillance intelligente de la qualité de l’air
+                            </h3>
+                            <span class="rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                                IoT · TinyML
+                            </span>
+                        </div>
+
+                        <p class="mt-4 text-sm leading-7 text-slate-400">
+                            Conception d’un système de surveillance de la qualité de l’air reposant sur
+                            un capteur connecté et une analyse embarquée.
+                        </p>
+
+                        <ul class="mt-4 space-y-2 text-sm leading-6 text-slate-400">
+                            <li>
+                                Déploiement d’un modèle MLP sur microcontrôleur ESP32 avec
+                                TensorFlow Lite Micro.
+                            </li>
+                            <li>Précision rapportée : 93,9 %.</li>
+                            <li>
+                                Transmission des mesures via MQTT/TLS et tableau de bord temps réel
+                                développé avec React.js.
+                            </li>
+                        </ul>
+
+                        <div class="mt-5 flex flex-wrap gap-2">
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">ESP32</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">TensorFlow Lite Micro</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">MQTT/TLS</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">React.js</span>
+                        </div>
+                    </article>
+
+                    <article class="rounded-2xl border border-slate-800 bg-slate-950/70 p-7 transition hover:border-indigo-500/50">
+                        <div class="flex flex-wrap items-start justify-between gap-3">
+                            <h3 class="text-xl font-semibold text-white">
+                                Détection de structures archéologiques
+                            </h3>
+                            <span class="rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                                Vision par ordinateur
+                            </span>
+                        </div>
+
+                        <p class="mt-4 text-sm leading-7 text-slate-400">
+                            Projet d’intelligence artificielle appliquée à l’identification de structures
+                            archéologiques dans des images aériennes et satellites de la région de Doukkala.
+                        </p>
+
+                        <ul class="mt-4 space-y-2 text-sm leading-6 text-slate-400">
+                            <li>
+                                Développement de modèles CNN pour l’analyse et la détection d’éléments
+                                d’intérêt.
+                            </li>
+                            <li>Préparation des données : prétraitement, segmentation et annotation.</li>
+                        </ul>
+
+                        <div class="mt-5 flex flex-wrap gap-2">
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">CNN</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">Images satellites</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">QGIS</span>
+                        </div>
+                    </article>
+
+                    <article class="rounded-2xl border border-slate-800 bg-slate-950/70 p-7 transition hover:border-indigo-500/50 md:col-span-2">
+                        <div class="flex flex-wrap items-start justify-between gap-3">
+                            <h3 class="text-xl font-semibold text-white">
+                                BP IA — Agent conversationnel bancaire
+                            </h3>
+                            <span class="rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                                IA conversationnelle
+                            </span>
+                        </div>
+
+                        <p class="mt-4 max-w-3xl text-sm leading-7 text-slate-400">
+                            Agent conversationnel conçu durant mon stage à la Banque Populaire afin
+                            d’accompagner les clients dans plusieurs parcours bancaires.
+                        </p>
+
+                        <div class="mt-5 grid gap-3 text-sm text-slate-400 sm:grid-cols-2">
+                            <p>
+                                <span class="text-slate-200">Parcours couverts :</span>
+                                consultation de solde, ouverture de compte, réclamations et questions
+                                sur les cartes.
+                            </p>
+                            <p>
+                                <span class="text-slate-200">Approche :</span>
+                                compréhension des demandes en langage naturel et génération de réponses
+                                via une API LLM.
+                            </p>
+                        </div>
+
+                        <div class="mt-5 flex flex-wrap gap-2">
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">Python</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">API LLM</span>
+                            <span class="rounded bg-slate-800 px-2.5 py-1 text-xs text-slate-300">NLP</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences" class="mx-auto max-w-6xl px-6 py-20">
+            <div class="mb-10">
+                <p class="text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">Technologies</p>
+                <h2 class="mt-3 text-3xl font-bold text-white">Compétences techniques</h2>
+            </div>
+
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+
+                <article class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                    <h3 class="font-semibold text-white">Intelligence artificielle</h3>
+                    <p class="mt-3 text-sm leading-6 text-slate-400">
+                        Python, TensorFlow, Keras, Scikit-learn, OpenCV, NLP, CNN et API LLM.
+                    </p>
+                </article>
+
+                <article class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                    <h3 class="font-semibold text-white">Big Data</h3>
+                    <p class="mt-3 text-sm leading-6 text-slate-400">
+                        Hadoop, HDFS, MapReduce et Apache Spark.
+                    </p>
+                </article>
+
+                <article class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                    <h3 class="font-semibold text-white">IoT et IA embarquée</h3>
+                    <p class="mt-3 text-sm leading-6 text-slate-400">
+                        ESP32, TensorFlow Lite Micro et communication MQTT/TLS.
+                    </p>
+                </article>
+
+                <article class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                    <h3 class="font-semibold text-white">Développement et outils</h3>
+                    <p class="mt-3 text-sm leading-6 text-slate-400">
+                        React.js, QGIS, LaTeX et Business Intelligence.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="mt-8 rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                <h3 class="font-semibold text-white">Formation complémentaire prévue — 2026–2027</h3>
+                <p class="mt-3 text-sm leading-7 text-slate-400">
+                    NLP avancé et LLM/RAG · Systèmes conversationnels · Transformers · MLOps et déploiement ·
+                    IA et finance (FinTech) · Données, sécurité et éthique de l’IA
+                </p>
+            </div>
+        </section>
+
+        <!-- Formation -->
+        <section id="formation" class="border-t border-white/10 bg-slate-900/40">
+            <div class="mx-auto max-w-6xl px-6 py-20">
+
+                <div class="mb-10">
+                    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-indigo-400">Études</p>
+                    <h2 class="mt-3 text-3xl font-bold text-white">Formation</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <article class="flex flex-wrap justify-between gap-3 rounded-xl border border-slate-800 bg-slate-950/60 p-5">
+                        <div>
+                            <h3 class="font-semibold text-white">
+                                Cycle ingénieur en génie informatique — spécialité IA
+                            </h3>
+                            <p class="mt-1 text-sm text-slate-400">HESTIM · Casablanca</p>
+                        </div>
+                        <span class="text-sm text-slate-500">2024–2027</span>
+                    </article>
+
+                    <article class="flex flex-wrap justify-between gap-3 rounded-xl border border-slate-800 bg-slate-950/60 p-5">
+                        <div>
+                            <h3 class="font-semibold text-white">
+                                Classes préparatoires aux grandes écoles — filière MP
+                            </h3>
+                            <p class="mt-1 text-sm text-slate-400">Mprepas · Marrakech</p>
+                        </div>
+                        <span class="text-sm text-slate-500">2022–2024</span>
+                    </article>
+
+                    <article class="flex flex-wrap justify-between gap-3 rounded-xl border border-slate-800 bg-slate-950/60 p-5">
+                        <div>
+                            <h3 class="font-semibold text-white">
+                                Baccalauréat en sciences physiques — mention Bien
+                            </h3>
+                            <p class="mt-1 text-sm text-slate-400">Lycée
